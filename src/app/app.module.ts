@@ -1,3 +1,8 @@
+// build commands
+//      ionic cordova platform add ios
+//      ionic cordova build ios
+//      ionic cordova emulate ios
+
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
