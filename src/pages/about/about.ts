@@ -18,7 +18,7 @@ export class AboutPage implements OnInit {
   leaders: Leader[];
 
   constructor(public navCtrl: NavController, public navParams: NavParams, 
-    private leaderProvider: LeaderProvider, @Inject('BaseURL') private BaseURL) {
+    private leaderProvider: LeaderProvider, @Inject('BaseURL') private BaseURL) {     //tslint:disable-line no-unused-variable
   }
 
   ionViewDidLoad() {

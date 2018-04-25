@@ -22,7 +22,7 @@ export class FavoritesPage implements OnInit {
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
     private favoriteservice: FavoriteProvider,
-    @Inject('BaseURL') private BaseURL,
+    @Inject('BaseURL') private BaseURL, //tslint:disable-line no-unused-variable
     private toastCtrl: ToastController,
     private loadingCtrl: LoadingController,
     private alertCtrl: AlertController) {

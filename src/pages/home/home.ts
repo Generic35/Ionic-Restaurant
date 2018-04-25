@@ -24,7 +24,8 @@ export class HomePage implements OnInit {
     private dishservice: DishProvider,
     private promotionservice: PromotionProvider,
     private leaderservice: LeaderProvider,
-    @Inject('BaseURL') private BaseURL) { }
+
+    @Inject('BaseURL') private BaseURL) { }  //tslint:disable-line no-unused-variable
 
   ngOnInit() {
     this.dishservice.getFeaturedDish()

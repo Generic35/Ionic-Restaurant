@@ -24,7 +24,7 @@ export class MenuPage implements OnInit {
     private dishservice: DishProvider,
     private favoriteservice: FavoriteProvider,
     private toastCtrl: ToastController,
-    @Inject('BaseURL') private BaseURL ) { }
+    @Inject('BaseURL') private BaseURL ) { }  //tslint:disable-line no-unused-variable
   
   ngOnInit() {
     this.dishservice.getDishes()
