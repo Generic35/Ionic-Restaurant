@@ -21,6 +21,7 @@
     "@angular/http": "5.2.9",
     "@angular/platform-browser": "5.2.9",
     "@angular/platform-browser-dynamic": "5.2.9",
+    "@ionic-native/admob-free": "^4.7.0",
     "@ionic-native/call-number": "^4.6.0",
     "@ionic-native/camera": "^4.6.0",
     "@ionic-native/core": "4.5.3",
@@ -71,7 +72,8 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
-      "call-number": {}
+      "call-number": {},
+      "cordova-plugin-admob-free": {}
     },
     "platforms": [
       "ios"

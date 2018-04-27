@@ -35,6 +35,7 @@ import { LeaderProvider } from '../providers/leader/leader';
 import { PromotionProvider } from '../providers/promotion/promotion';
 import { ProcessHttpmsgProvider } from '../providers/process-httpmsg/process-httpmsg';
 import { FavoriteProvider } from '../providers/favorite/favorite';
+import { AdMobFree } from '@ionic-native/admob-free';
 
 @NgModule({
   declarations: [
@@ -85,7 +86,8 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     SocialSharing,
     Camera,
     Network,
-    CallNumber
+    CallNumber,
+    AdMobFree
   ]
 })
 export class AppModule {}

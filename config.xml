@@ -3,7 +3,7 @@
     <name>conFusion</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://172.21.0.194:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -87,5 +87,7 @@
     <plugin name="cordova-plugin-camera" spec="^4.0.2" />
     <plugin name="cordova-plugin-network-information" spec="~2.0.1" />
     <plugin name="mx.ferreyra.callnumber" spec="~0.0.2" />
+    <plugin name="cordova-plugin-admob-free" spec="~0.15.0" />
+    <allow-navigation href="http://172.21.0.194:8100" />
     <engine name="ios" spec="4.5.4" />
 </widget>
