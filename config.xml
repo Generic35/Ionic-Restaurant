@@ -89,5 +89,10 @@
     <plugin name="mx.ferreyra.callnumber" spec="~0.0.2" />
     <plugin name="cordova-plugin-admob-free" spec="~0.15.0" />
     <allow-navigation href="http://172.21.0.194:8100" />
-    <engine name="ios" spec="~4.5.4" />
+    <allow-navigation href="http://172.21.0.194:8101" />
+    <allow-navigation href="http://192.168.56.1:8100" />
+    <allow-navigation href="http://10.0.1.83:8100" />
+    <engine name="ios" spec="4.5.4" />
+    <engine name="android" spec="~7.0.0" />
+    <allow-navigation href="http://10.0.1.83:8101" />
 </widget>

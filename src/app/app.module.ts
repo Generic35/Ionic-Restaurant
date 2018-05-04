@@ -2,7 +2,11 @@
 //      ionic cordova platform add ios
 //      ionic cordova build ios
 //      ionic cordova emulate ios
-
+//      console and livereload --> ionic cordova emulate ios -lc
+//      console and livereload --> ionic cordova emulate android -lc
+//      android w/ genyMotion --> ionic cordova run
+//      ios physical device --> ionic cordova build ios --prod
+//      debug android physical device from chrome chrome://inspect
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
